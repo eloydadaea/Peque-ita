@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario de San Valentín - 14 Días de Amor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1><i class="fas fa-heart"></i> Calendario de San Valentín</h1>
+        <p class="subtitle">14 Días de Amor - Un regalo virtual cada día  para mi princesita</p>
+        <div class="date-display">
+            <span id="current-date">Cargando fecha...</span>
+        </div>
+        <div class="countdown">
+            <span id="days-remaining">14 días de amor</span>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button id="open-today">Abrir regalo de hoy</button>
+        <button id="reset-calendar">Reiniciar calendario</button>
+        <button id="instructions-btn">Instrucciones</button>
+    </div>
+
+    <div class="calendar" id="calendar">
+   
+    </div>
+
+    <div class="modal" id="gift-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <h2 id="modal-title">Día 1</h2>
+            <div id="modal-content">
+                <p>Cargando regalo...</p>
+            </div>
+            <button id="close-modal">Cerrar</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Calendario de San Valentín • 14 regalos virtuales de amor • Hecho con ❤️</p>
+        <p>Cada día del 1 al 14 de febrero contiene una sorpresita especial</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
