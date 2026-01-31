@@ -554,7 +554,7 @@ let currentMonth = today.getMonth(); // 0 = Enero, 11 = Diciembre
 let currentDay = today.getDate();
 
 // Variable para modo de prueba - TODOS LOS REGALOS HABILITADOS
-const TEST_MODE = true; // Cambia a false para volver al modo normal
+const TEST_MODE = false; // Cambia a false para volver al modo normal
 
 
 // Inicialización
@@ -2638,4 +2638,5 @@ showDayGift = function(day) {
             });
         }
     }
+
 };
